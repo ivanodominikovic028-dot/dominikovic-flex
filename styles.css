@@ -4,8 +4,8 @@
   --panel-alt: #eef4ff;
   --text: #1f2937;
   --muted: #5d6977;
-  --primary: #d91f26;
-  --primary-dark: #b7121c;
+  --primary: #0d3b66;
+  --primary-dark: #082a49;
   --accent: #0d3b66;
   --line: #dfe7f3;
   --shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
@@ -103,7 +103,7 @@ textarea {
   display: grid;
   place-items: center;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--primary), #ff4b56);
+  background: linear-gradient(135deg, var(--primary), #1c5b8e);
   color: #fff;
   font-size: 1.2rem;
   box-shadow: var(--shadow);
@@ -206,7 +206,7 @@ textarea {
 .btn-primary {
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   color: #fff;
-  box-shadow: 0 12px 24px rgba(217, 31, 38, 0.22);
+  box-shadow: 0 12px 24px rgba(13, 59, 102, 0.22);
 }
 
 .btn-secondary {
@@ -432,7 +432,7 @@ textarea {
   display: grid;
   place-items: center;
   border-radius: 14px;
-  background: #fff1f2;
+  background: #e8f0ff;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
@@ -499,7 +499,7 @@ textarea {
   object-fit: cover;
   border-radius: 22px;
   box-shadow: var(--shadow);
-  border: 1px solid rgba(13,59,102,0.08);
+  border: 1px solid rgba(13, 59, 102, 0.08);
 }
 
 .tow-copy-wrap {
@@ -633,7 +633,7 @@ textarea {
   place-items: center;
   width: 52px;
   height: 52px;
-  background: #ffe8ea;
+  background: #e8efff;
   color: var(--primary);
   border-radius: 14px;
   font-weight: 800;
